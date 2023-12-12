@@ -13,7 +13,7 @@ function Blog() {
     return (
         <div>
             <ul>
-               <li>{posts.map(post => <Post key={post.id} />)}</li> 
+               {posts.map(post => <li><Post post={post} key={post.id}/></li>)}
             </ul>
         </div>
     )
