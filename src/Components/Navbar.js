@@ -1,18 +1,16 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from "./Home";
-import Blog from "./Blog";
-import About from "./About";
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
-        <Router>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/blog" element={<Blog />} />
-                <Route path="/about" element={<About />} />
-            </Routes>
-        </Router>
-    )
+        <div>
+            <nav>
+                <Link to="/">Home</Link>
+                <Link to="/blog">Blog</Link>
+                <Link to="/about">About</Link>
+            </nav> 
+        </div>
+            
+    );
 }
 
 export default Navbar;
