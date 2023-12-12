@@ -1,0 +1,29 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "The Beauty of React",
+        "content": "React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called 'components'."
+      },
+      {
+        "id": 2,
+        "title": "Understanding React Router",
+        "content": "React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps UI in sync with the URL."
+      },
+      {
+        "id": 3,
+        "title": "State Management in React",
+        "content": "State management is crucial in React applications. It's a way to handle data and UI state with various methods, including Context API, Redux, and more, to create dynamic and interactive web experiences."
+      },
+      {
+        "id": 4,
+        "title": "Hooks: The Future of React",
+        "content": "React Hooks are functions that let you 'hook into' React state and lifecycle features from function components. They are a complete and elegant way to use React's capabilities without writing a class."
+      },
+      {
+        "id": 5,
+        "title": "Building Single Page Applications (SPA) with React",
+        "content": "Single Page Applications are web applications that load a single HTML page and dynamically update that page as the user interacts with the app. React's powerful component model and routing capabilities make it an excellent choice for SPAs."
+      }
+    ]
+  }
